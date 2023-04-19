@@ -1,4 +1,4 @@
-## SLURM Clustering on UCloud 
+## SLURM Clusters on UCloud 
 
 description
 
