@@ -1,10 +1,6 @@
 ## SLURM Clusters on UCloud 
 
-description
-
-[R]()
-
-[Python]()
+Still in the making
 
 ### External Tutorials
 
