@@ -11,6 +11,7 @@ ${GIVEN_NODE}
 #SBATCH --exclusive
 ### Give all resources to a single Ray task, ray can manage the resources internally
 #SBATCH --ntasks-per-node=1
+##SBATCH --ntasks-per-node=${NPROCS}
 ##SBATCH --gpus-per-task=${NUM_GPUS_PER_NODE} #De-activated by KGP 230317
 
 # Load modules or your own conda environment here

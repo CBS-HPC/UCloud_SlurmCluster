@@ -17,26 +17,21 @@ GIVEN_NODE = "${GIVEN_NODE}"
 LOAD_ENV = "${LOAD_ENV}"
 NPROCS   = "${NPROCS}"
 NTHREADS = "${NTHREADS}"
-LIBS     = "${LIBS}"
 #NUM_GPUS_PER_NODE = "${NUM_GPUS_PER_NODE}" # Deactived by KGP 230317
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--libs",
-        type=str,
-        required=False,
-        help="path to package library (required for R).",
-    )
-    parser.add_argument(
         "--nprocs",
         type=int,
+        default=1,
         required=False,
         help="No. Processes pr node (required for Dask & R).",
     )
     parser.add_argument(
         "--nthreads",
         type=int,
+        default=1,
         required=False,
         help="No. Thread pr Process (required for Dask).",
     )
