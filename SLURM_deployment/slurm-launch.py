@@ -113,7 +113,6 @@ if __name__ == "__main__":
     text = text.replace(GIVEN_NODE, node_info)
     text = text.replace(NPROCS, str(args.nprocs))
     text = text.replace(NTHREADS, str(args.nthreads))
-    text = text.replace(LIBS, str(args.libs))
     text = text.replace(
         "# THIS FILE IS A TEMPLATE AND IT SHOULD NOT BE DEPLOYED TO " "PRODUCTION!",
         "# THIS FILE IS MODIFIED AUTOMATICALLY FROM TEMPLATE AND SHOULD BE "

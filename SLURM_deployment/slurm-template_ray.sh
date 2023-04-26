@@ -49,10 +49,6 @@ echo "STARTING HEAD at $node_1"
 srun --nodes=1 --ntasks=1 -w "$node_1" ray start --head --node-ip-address="$ip" --port=$port --block &
 sleep 30
 
-#worker_num=$((SLURM_JOB_NUM_NODES - 1)) #number of nodes other than the head node
-#export NB_WORKERS=$((${SLURM_JOB_NUM_NODES-1})) #number of nodes other than the head node
-#echo ${NB_WORKERS}
-
 export NB_WORKERS=$((SLURM_JOB_NUM_NODES - 1)) #number of nodes other than the head node
 echo "STARTING ${NB_WORKERS} WORKERS"
 for ((i = 1; i <= NB_WORKERS; i++)); do

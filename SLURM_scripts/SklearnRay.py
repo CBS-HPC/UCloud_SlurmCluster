@@ -1,4 +1,5 @@
 # This Python file uses the following encoding: utf-8
+print("Hello")
 import numpy as np
 import time
 import ray
