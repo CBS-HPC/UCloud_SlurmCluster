@@ -6,33 +6,20 @@
 - [slurm-launch.py](/SLURM_deployment/slurm-launch.py)
 
 #### Ray (Python)
- - [slurm-template_ray.sh](/SLURM_deployment/slurm-template_ray.sh) - SLURM script template
+ - [slurm-template_ray.sh](/SLURM_deployment/slurm-template_ray.sh)
   
- - [SklearnRay.py](/SLURM_scripts/SklearnRay.py) - python script
+ - [SklearnRay.py](/SLURM_scripts/SklearnRay.py)
  
- - [SLURM script(.sh)]() - output file
- 
- - [log file(.log)]() - output file
-
 #### Dask (Python)
- - [slurm-template_dask.sh](/SLURM_deployment/slurm-template_dask.sh) - SLURM script template
+ - [slurm-template_dask.sh](/SLURM_deployment/slurm-template_dask.sh)
  
- - [SklearnDask.py](/SLURM_scripts/SklearnDask.py) - python script
-
- - [SLURM script(.sh)]()  - output file
-
- - [log file(.log)]() - output file
+ - [SklearnDask.py](/SLURM_scripts/SklearnDask.py)
 
 #### doParallel (R)
 
- - [slurm-template_R.sh](/SLURM_deployment/slurm-template_R.sh) - SLURM script template
+ - [slurm-template_R.sh](/SLURM_deployment/slurm-template_R.sh)
  
- - [doParallel.r](/SLURM_scripts/doParallel.r) - R script
+ - [doParallel.r](/SLURM_scripts/doParallel.r)
  
- - [SLURM script(.sh)]() - output file
-
- - [log file(.log)]() - output file
-
-
 ### External Tutorials
 [Virtual SLURM Learning (Hosted by DieC)](https://deic.dk/en/news/2022-11-21/virtual-slurm-learning-environment-ready)
