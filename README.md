@@ -1,8 +1,7 @@
 ## SLURM Clusters on UCloud 
 
-[Run Multi-node SLURM Cluster on UCloud](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM.ipynb)
+- [Run Multi-node SLURM Cluster on UCloud](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM.ipynb)
 
-### Examples files
 - [slurm-launch.py](/SLURM_deployment/slurm-launch.py)
 
 #### Ray (Python)
