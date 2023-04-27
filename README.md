@@ -5,7 +5,7 @@
 - [slurm-launch.py](SLURM_deployment/slurm-launch.py)
 
 
-```
+```bash
 
 dfdf
 
