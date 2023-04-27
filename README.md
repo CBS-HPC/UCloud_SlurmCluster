@@ -6,13 +6,13 @@
 [slurm-launch.py](/SLURM_deployment/slurm-launch.py)
 
 #### Ray (Python)
- -[slurm-template_ray.sh](/SLURM_deployment/slurm-template_ray.sh) - SLURM script template
+ - [slurm-template_ray.sh](/SLURM_deployment/slurm-template_ray.sh) - SLURM script template
   
- -[SklearnRay.py](/SLURM_scripts/SklearnRay.py) - python script
+ - [SklearnRay.py](/SLURM_scripts/SklearnRay.py) - python script
  
- -[SLURM script(.sh)]() - output file
+ - [SLURM script(.sh)]() - output file
  
- -[log file(.log)]() - output file
+ - [log file(.log)]() - output file
 
 #### Dask (Python)
  -[slurm-template_dask.sh](/SLURM_deployment/slurm-template_dask.sh) - SLURM script template
