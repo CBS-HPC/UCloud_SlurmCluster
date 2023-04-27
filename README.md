@@ -4,6 +4,7 @@
 
 - [slurm-launch.py](SLURM_deployment/slurm-launch.py)
 
+```
 #### Ray (Python)
 - [slurm-template_ray.sh](SLURM_deployment/slurm-template_ray.sh)
 
@@ -20,6 +21,8 @@
 - [slurm-template_R.sh](SLURM_deployment/slurm-template_R.sh)
 
 - [doParallel.r](SLURM_scripts/doParallel.r)
+
+````
 
 ### External Tutorials
 
