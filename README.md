@@ -1,6 +1,6 @@
 ## SLURM Clusters on UCloud 
 
-[Run Multi-node SLURM Cluster on UCloud](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURMtutorial.ipynb)
+[Run Multi-node SLURM Cluster on UCloud](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM.ipynb)
 
 ### External Tutorials
 
