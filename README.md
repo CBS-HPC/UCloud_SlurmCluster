@@ -25,7 +25,3 @@
 - [slurm-template_R.sh](SLURM_deployment/slurm-template_R.sh)
 
 - [doParallel.r](SLURM_scripts/doParallel.r)
-
-### External Tutorials
-
-[Virtual SLURM Learning (Hosted by DieC)](https://deic.dk/en/news/2022-11-21/virtual-slurm-learning-environment-ready)
