@@ -18,7 +18,7 @@
 
 - [slurm-template_dask.sh](SLURM_deployment/slurm-template_dask.sh)
 
-- [SklearnRay.py](SLURM_scripts/SklearnRay.py)
+- [SklearnDask.py](SLURM_scripts/SklearnDask.py)
 
 #### doParallel (R)
 
