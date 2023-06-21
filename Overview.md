@@ -24,5 +24,5 @@
 
 
 ``` title=".browserslistrc"
---8<-- "https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM_deployment/slurm-launch.p"
+--8<-- "https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM_deployment/slurm-launch.py"
 ```
