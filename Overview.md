@@ -20,9 +20,3 @@
 - [doParallel.r](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM_scripts/doParallel.r)
 - [tidyModel_RF.r](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM_scripts/tidyModel_RF.r)
 - [tidyModel_NN.r](https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM_scripts/tidyModel_NN.r)
-
-
-
-``` title=".browserslistrc"
---8<-- "https://github.com/CBS-HPC/UCloud_SlurmCluster/blob/main/SLURM_deployment/slurm-launch.py"
-```
