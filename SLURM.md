@@ -1,5 +1,7 @@
-=== "UCloud Tutorial: Run Multi-node SLURM Cluster on UCloud"
+# UCloud Tutorial: Run Multi-node SLURM Cluster on UCloud
 
+=== "Tutorial"
+    <br />
     ## Launch a "Terminal App" UCloud Job
 
     In addition to the normal setting fill out the following options (See figure below).
@@ -130,38 +132,48 @@
     ![](images/SLURM5.PNG)
 
 === "Launch File (slurm-launch.py)"
+     <br />
     ```
     --8<-- "docs\UCloud_SlurmCluster\SLURM_deployment\slurm-launch.py"
     ```
 === "Ray (Python)"
+     <br />
     === "slurm-template_ray.sh"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_deployment\slurm-template_ray.sh"
         ```
     === "SklearnRay.py"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_scripts\SklearnRay.py"
         ```
 === "Dask (Python)"
+     <br />
     === "slurm-template_dask.sh"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_deployment\slurm-template_dask.sh"
         ```
     === "SklearnDask.py"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_scripts\SklearnDask.py"
         ```
 === "doParallel (R)"
+     <br />
     === "slurm-template_R.sh"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_deployment\slurm-template_R.sh"
         ```
     === "doParallel.r"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_scripts\doParallel.r"
         ```
-
     === "tidyModel_RF.r"
+         <br />
         ```
         --8<-- "docs\UCloud_SlurmCluster\SLURM_scripts\tidyModel_RF.r"
         ```
